@@ -1,0 +1,50 @@
+.hidden {
+    display: none;
+}
+
+#container {
+    margin: 20px auto;
+    width: 428px;
+    background-color: black;
+    border: solid 4px firebrick;
+    border-radius: 20px;
+}
+
+#main-content {
+    display: grid;
+    grid-template-columns: repeat(4,85px);
+    grid-column-gap:16px;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+article{
+    grid-column: 1/-1;
+}
+
+body{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+p{
+    line-height: 25px;
+    color: cornsilk;
+}
+h2{
+    font-family: 'ubuntu', serif;
+    font-size: 24px;
+    font-weight: 200;
+    padding-top: 5px;
+    background-color: firebrick;
+    color: black;
+    text-align: center;
+    box-shadow: 5px 5px 0 grey;
+    border: dashed 3px white;
+}
+
+#img{
+    width: 274px;
+    height: 183px;
+    padding-left: 50px;
+}
